@@ -1,4 +1,4 @@
-class School
-  attr_accessor :name
+class School  
+  attr_reader :name 
   
 end
