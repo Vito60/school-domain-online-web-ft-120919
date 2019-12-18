@@ -6,8 +6,8 @@ class School
     @roster = {}
   end
   
-  def add_student(school, grade)
-    @roster[grade] = [school]
+  def add_student(@name, grade)
+    @roster[grade] = [@name]
   end
   
 end
