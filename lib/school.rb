@@ -11,7 +11,13 @@ class School
     roster[level] << student
   end
   
-  
+  def grade(level)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+    end 
+  end 
   
   def sort 
   new_hash = {}
